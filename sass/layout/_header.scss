@@ -1,23 +1,14 @@
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
-}
-
-.header .container {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-}
-
-.header-list {
-  display: flex;
-  margin-left: auto;
-}
-
-.header-list-link:not(:last-child) {
-  margin-right: 50px;
-}
-
-.header {
   border-bottom: 1px solid #ececec;
+}
+
+.contact {
+  display: flex;
+  margin-left: auto;
+}
+
+.contact__item:not(:last-child) {
+  margin-right: 30px;
 }

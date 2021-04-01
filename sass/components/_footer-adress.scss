@@ -1,21 +1,27 @@
-.footer-list-item:not(:last-child) {
-  margin-bottom: 9px;
+.adress__item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 
-.footer-social-title {
+.apeal__title {
   font-family: var(--main-font);
-  font-weight: 700;
+  @include title(14px, 700, 16px);
+
+  /*font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03em;*/
   text-transform: uppercase;
   color: var(--primary-white-color);
   display: flex;
   margin-bottom: 20px;
 }
 
-.footer-social-item:not(:last-child) {
-  margin-right: 10px;
+.footer-social__item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .contact-adress {

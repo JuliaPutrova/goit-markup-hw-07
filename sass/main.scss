@@ -1,4 +1,5 @@
 @import "./utils/variables";
+@import "./utils/mixins";
 @import "./utils/visually-hidden";
 
 @import "./base/common";
@@ -8,10 +9,9 @@
 @import "./components/social-links";
 @import "./components/title";
 @import "./components/navigation-header";
-@import "./components/header-logo";
 @import "./components/mail";
 @import "./components/tel";
-@import "./components/footer-logo";
+@import "./components/logo";
 @import "./components/footer-adress";
 @import "./components/footer-form";
 @import "./components/footer-social-links";

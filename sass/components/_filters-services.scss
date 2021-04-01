@@ -1,4 +1,4 @@
-.filter-services {
+.filter-projects__button {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 22px;
@@ -27,17 +27,13 @@
   }
 }
 
-.filter-projects .container {
-  align-items: center;
-}
-
-.services-list {
+.filter-projects__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
   align-items: center;
 }
 
-.services-list-item:not(:last-child) {
+.filter-projects__item:not(:last-child) {
   margin-right: 8px;
 }

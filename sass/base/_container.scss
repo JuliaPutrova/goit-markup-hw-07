@@ -3,4 +3,14 @@
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+
+  .filter-projects & {
+    align-items: center;
+  }
+
+  .header & {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
 }

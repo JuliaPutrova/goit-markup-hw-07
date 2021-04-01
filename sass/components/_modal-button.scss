@@ -4,9 +4,11 @@
   padding-bottom: 10px;
   padding-left: 32px;
   padding-right: 32px;
-  font-weight: 700;
+  @include button(16px, 700, 30px);
+  /*font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em;*/
   display: flex;
   align-items: center;
   text-align: center;
